@@ -1,10 +1,10 @@
-## Raspberry Pi Starter
+# Raspberry Pi Starter
 
-### Overview 
+## Overview 
 
 This is a collection of basic Raspberry pi projects for for those who wish to start learning programming with the Raspberry Pi
 
-#### Contents
+### Contents
     
     
 - [Blinking LED](#blinking-led)
@@ -12,7 +12,7 @@ This is a collection of basic Raspberry pi projects for for those who wish to st
 - more coming soon...
 - [Helpful resources](#helpful-resources)
 
-### Blinking LED
+## Blinking LED
 code: *blink_led.py*
 
 ![Blinking led project wiring diagram](breadboards/blink_led.png?raw=true "Blinking led project wiring diagram")
@@ -24,7 +24,7 @@ python blink_led.py
 
 
 
-### Temperature and humidity sensor
+## Temperature and humidity sensor
 * sensor DHT11
 * code: *temp_humid_sensor.py*
 
@@ -49,3 +49,11 @@ python temp_humid_sensor.py
 ```
 
 > credits: circuit.basics.com
+
+
+## Helpful Resources
+- [What you need to start with Raspberry Pi](https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=83446)
+- [Getting Started with the Raspberry Pi](https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=4751)
+- [Raspberry Pi Pinout](https://pinout.xyz/pinout)
+- [Common Pitfalls for Beginners](https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=83372)
+
