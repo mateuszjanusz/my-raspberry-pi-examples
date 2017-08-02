@@ -80,7 +80,7 @@ GPIO.cleanup()
 ### Blinking LED
 code: *blink_led.py*
 
-![Blinking led project wiring diagram](breadboards/blink_led.png?raw=true "Blinking led project wiring diagram")
+![Blinking led project wiring diagram](wiring_diagrams/blink_led.png?raw=true "Blinking led project wiring diagram")
 
 Execute Python program in terminal:
 ``` 
@@ -94,7 +94,7 @@ python blink_led.py
 * code: *temp_humid_sensor.py*
 
 
-![DHT11 project wiring diagram](breadboards/temp_humid.png?raw=true "DHT11 project wiring diagram")
+![DHT11 project wiring diagram](wiring_diagrams/temp_humid.png?raw=true "DHT11 project wiring diagram")
 
 
 #####  Install the Adafruit DHT11 library first
