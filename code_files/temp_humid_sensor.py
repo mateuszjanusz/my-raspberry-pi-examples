@@ -1,4 +1,4 @@
-# Simple example that displays the temperature and humidity to terminal (sensor DHT11)
+# Simple example that prints the temperature and humidity to terminal (sensor DHT11)
 
 # Install the Adafruit DHT11 library first: 
 # 1. git clone https://github.com/adafruit/Adafruit_Python_DHT.git

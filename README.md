@@ -2,14 +2,14 @@
 
 ## Overview 
 
-This is my collection of basic Raspberry pi projects and helpful resources for those getting started with the Raspberry Pi :clap:
+This is my collection of basic Raspberry Pi projects and helpful resources for those getting started with the Raspberry Pi :clap:
 
 ### Contents
     
 - [RPi.GPIO Python module basic documentation](#gpio-python-module-basic-documentation) 
 - Projects :bulb:
     - [Blinking LED](#blinking-led)
-    - [Temperature and humidity sensor](#temperature-and-humidity-sensor)
+    - [DHT11 Temperature and humidity sensor](#temperature-and-humidity-sensor)
     - more coming soon...
 - [Helpful resources](#helpful-resources)
 
@@ -37,7 +37,7 @@ GPIO.setup(pin_number, GPIO.OUT)
 ```
 GPIO.setup(7, GPIO.OUT)
 ```
-- ##### Setup multiple channels
+- #### Setup multiple channels
 ```
 pin_numbers = [7,14]    
 GPIO.setup(pin_numbers, GPIO.OUT)
@@ -73,11 +73,11 @@ You can clean up inividual channels or all channels like this:
 GPIO.cleanup()
 ```
 
-- #### Wiki [RPi.GPIO Python Module](https://sourceforge.net/p/raspberry-gpio-python/wiki/Home/)
 
 
 ## Projects
-## Blinking LED
+
+### Blinking LED
 code: *blink_led.py*
 
 ![Blinking led project wiring diagram](breadboards/blink_led.png?raw=true "Blinking led project wiring diagram")
@@ -89,7 +89,7 @@ python blink_led.py
 
 
 
-## Temperature and humidity sensor
+### Temperature and humidity sensor
 * sensor DHT11
 * code: *temp_humid_sensor.py*
 
@@ -125,4 +125,5 @@ python temp_humid_sensor.py
 - [Raspberry Pi Pinout](https://pinout.xyz/pinout)
 - [Common Pitfalls for Beginners](https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=83372)
 - [Python basics](https://www.raspberrypi.org/documentation/usage/python/README.md)
+- [Rpi.GPIO Python module wiki](https://www.raspberrypi.org/documentation/usage/python/README.md)
 
