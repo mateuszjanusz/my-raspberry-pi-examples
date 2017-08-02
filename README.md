@@ -6,9 +6,10 @@ This is a collection of basic Raspberry pi projects for for those who wish to st
 
 #### Contents
     
+    
 - [Blinking LED](#blinking-led)
-- Temperature and humidity sensor 
-- ...
+- [Temperature and humidity sensor](#temperature-and-humidity-sensor)
+- more coming soon...
 - [Helpful resources](#helpful-resources)
 
 ### Blinking LED
