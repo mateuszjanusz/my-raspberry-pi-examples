@@ -3,14 +3,7 @@ import Adafruit_DHT
 import I2C_LCD_driver
 from time import *
 
-
 my_lcd = I2C_LCD_driver.lcd()
-
 while True:
-
-    humidity, temperature = Adafruit_DHT.read_retry(11, 4)
-
-    print 'Temp: {0:0.1f} C  Humidity: {1:0.1f} %'.format(temperature, humidity)
-    my_lcd.lcd_display_string('Temp: {0:0.1f} C  Humidity: {1:0.1f} %'.format(temperature, humidity), 1)
-
-
+    print('printing')
+    my_lcd.lcd_display_string("hello world", 2, 3)

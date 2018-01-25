@@ -19,7 +19,7 @@ Made available under GNU GENERAL PUBLIC LICENSE
 I2CBUS = 1
 
 # LCD Address
-ADDRESS = 0x3f 
+ADDRESS = 0x3F
 
 import smbus
 from time import sleep
